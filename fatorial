@@ -1,0 +1,18 @@
+const fatorial = 5;
+let resultado = 0;
+
+resultado = fatorial * (fatorial - 1) * (fatorial - 2) * (fatorial - 3) * (fatorial - 4);
+console.log("o resultado é: " + resultado);
+
+
+const fatorial1 = 6;
+let resultado1 = 0;
+
+resultado1 = fatorial1 * (fatorial1 - 1) * (fatorial1 - 2) * (fatorial1 - 3) * (fatorial1 - 4) * (fatorial1 - 5);
+console.log("o resultado é: " + resultado1);
+
+const fatorial2 = 10;
+let resultado2 = 0;
+
+resultado2 = fatorial2 * (fatorial2 - 1) * (fatorial2 - 2) * (fatorial2 - 3) * (fatorial2 - 4) * (fatorial2 - 5) * (fatorial2 - 6) * (fatorial2 - 7) * (fatorial2 - 8) * (fatorial2 - 9);
+console.log("o resultado é: " + resultado2);
