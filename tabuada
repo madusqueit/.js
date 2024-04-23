@@ -1,0 +1,4 @@
+t = int(input("Digite o número para tabuada:"))
+
+for i in range(1, 11):
+    print(t, " x ", i, " = ", t * i)
