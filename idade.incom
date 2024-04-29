@@ -1,0 +1,44 @@
+print("faça o cadastro da pessoa 1")
+cadastro1 = input("Digite seu nome: ")
+idade1 = int(input("Digite sua idade: "))
+sexo1 = input("Digite seu sexo: ")
+
+print("faça o cadastro da pessoa 2")
+cadastro2 = input("Digite seu nome: ")
+idade2 = int(input("Digite sua idade: "))
+sexo2 = input("Digite seu sexo: ")
+
+print("faça o cadastro da pessoa 3")
+cadastro3 = input("Digite seu nome: ")
+idade3 = int(input("Digite sua idade: "))
+sexo3 = input("Digite seu sexo: ")
+
+print("nome:", cadastro1)
+print("idade:", cadastro1)
+if (idade1 >= 18):
+    print("maior de idade")
+else:
+    print("menor de idade")
+print("sexo:", cadastro1)
+
+
+print("nome:", cadastro2)
+print("idade:", cadastro2)
+if (idade2 >= 18):
+    print("maior de idade")
+else:
+    print("menor de idade")
+print("sexo:", cadastro2)
+
+
+print("nome:", cadastro3)
+print("idade:", cadastro3)
+if (idade3 >= 18):
+    print("maior de idade")
+else:
+    print("menor de idade")
+print("sexo:", cadastro3)
+
+print("pessoa 1:", cadastro1, idade1, sexo1)
+print("pessoa 2:", cadastro2, idade2, sexo2)
+print("pessoa 3:", cadastro3, idade3, sexo3)
