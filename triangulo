@@ -1,7 +1,11 @@
-const l1 = 5 ;
-const l2 = 3 ;
-const l3 = 7 ;
+const l1 = 4 ;
+const l2 = 9 ;
+const l3 = 4 ;
 
 if(l1 === l2 & l1 === l3 & l2 === l3){
     console.log("Triangulo Equilátero");
+} else if(l1 === l2 || l1 === l3 || l2 === l3){
+    console.log("Triangulo Isóscele");
+} else {
+    console.log("Triangulo Escaleno");
 }
