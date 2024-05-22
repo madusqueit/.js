@@ -1,0 +1,6 @@
+const nome = "madu"
+const sobrenome = "board"
+let nomecompleto = ""
+nomecompleto = nome + " " + sobrenome 
+
+console.log("seu nome é:", nomecompleto)
