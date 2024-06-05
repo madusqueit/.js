@@ -1,0 +1,8 @@
+const produtos = ["sabonete", "arroz", "feijão", "batata", "macarrão", 
+                  "farofa", "chocolate", "suco", "margarina", "açucar"]
+console.log(produtos);
+console.log(produtos[3]);
+console.log(produtos.length);
+
+produtos.pop;
+console.log(produtos.pop())
