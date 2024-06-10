@@ -1,8 +1,28 @@
 const produtos = ["sabonete", "arroz", "feijão", "batata", "macarrão", 
                   "farofa", "chocolate", "suco", "margarina", "açucar"]
+
 console.log(produtos);
 console.log(produtos[3]);
 console.log(produtos.length);
 
 produtos.pop;
 console.log(produtos.pop())
+
+produtos.push("banana")
+produtos.push("abóbora")
+
+produtos.pop()
+nprodutos = produtos.splice(3,4)
+console.log(nprodutos)
+
+produtos1 = produtos.slice(0,5)
+produtos2 = produtos.slice(5)
+
+console.log(produtos1)
+console.log(produtos2)
+
+produtos1.push("melão")
+produtos2.push("amendoim")
+
+listacompleta = produtos1.concat(produtos2)
+console.log(listacompleta)
