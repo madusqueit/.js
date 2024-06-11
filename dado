@@ -1,0 +1,11 @@
+lista1 = ["Douglas","Maria","Mathias"]
+lista2 = ["Soares","Board","Fagundes"]
+listacompleta = lista1.concat(lista2)
+
+console.log(listacompleta)
+
+dado = [["Helena","Lara","Julia"],[8,8.5,9]];
+console.log("nome: " + dado[0][1] + "média: " + dado[1][1]);
+
+dado2 = [["Pedro","Joao","Alex"],[[3,9,7],[5,8,9],[8,9,7]]];
+console.log("nome: " + dado2[0][1] + "média: " + dado2[1][1][0]);
