@@ -1,0 +1,10 @@
+const objetoPessoa = {
+    nome: "madu",
+    idade: 17,
+    cpf: "124.619.759-65"
+}
+console.log(objetoPessoa)
+console.log(`nome da pessoa: ${objetoPessoa.nome}`)
+
+
+const lista = ["madu",17,"124.619.759-65"]
