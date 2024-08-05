@@ -1,0 +1,24 @@
+const cliente = {
+    nome: "Taylor",
+    idade: 23,
+    email: "STaylor.com",
+    telefone: ["41 95627-9438", "41 95413-8416"]
+}
+
+
+
+
+
+
+cliente.endereco = {
+    rua: 'as andorinhas voltaram',
+    numero: 954,
+    apartamento: true,
+    complemento: "ap 23"
+}
+
+console.log(cliente)
+
+console.log(cliente.endereco)
+
+console.log(cliente.endereco.rua)
