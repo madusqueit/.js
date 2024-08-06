@@ -5,20 +5,27 @@ const cliente = {
     telefone: ["41 95627-9438", "41 95413-8416"]
 }
 
+console.log("========1========")
+console.log(cliente)
 
-
-
-
-
-cliente.endereco = {
+cliente.enderecos = [{
     rua: 'as andorinhas voltaram',
     numero: 954,
     apartamento: true,
     complemento: "ap 23"
-}
+},
+]
 
+console.log("========2=========")
 console.log(cliente)
 
-console.log(cliente.endereco)
+cliente.enderecos.push(
+    {
+    rua: 'as andorinhas voltaram',
+    numero: 954,
+    apartamento: false
+    }
+)
 
-console.log(cliente.endereco.rua)
+console.log("========3========")
+console.log(cliente)
