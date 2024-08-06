@@ -1,0 +1,10 @@
+const cliente1 = {
+    nome: "Carol",
+    idade: 33,
+}
+    cliente1.endereco = {
+    rua: "Volei",
+    numero: 15
+}
+
+console.log(cliente1)
