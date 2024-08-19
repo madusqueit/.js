@@ -1,0 +1,6 @@
+const listaF = ["maracuja", "uva verde", "manga", "melão", "kiwi"]
+
+for(i = 0; i <= listaF.length;i++){
+
+console.log(listaF[i].toUpperCase())
+}
