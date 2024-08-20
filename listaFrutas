@@ -1,0 +1,10 @@
+const listaF = ["maracuja", "uva verde", "manga", "melão", "kiwi"]
+
+const maiuscula = []
+
+for(i = 0; i < listaF.length;i++){
+
+maiuscula.push(listaF[i].toUpperCase())
+}
+
+console.log(maiuscula)
