@@ -1,0 +1,18 @@
+const turma = {
+    nome: "3º A TDS",
+    anoLetivo: 2024, 
+    professor: {
+        nome: "Arisberto",
+        disciplina: "Programacao"
+    },
+    aluno:[{
+        nome:'Douglas',
+        idade: 17
+    },
+    {   nome:'Kauany',
+        idade: 17
+    }
+    ]
+}
+
+turma.aluno[0].nome
