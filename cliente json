@@ -1,0 +1,15 @@
+[{
+    "nome":"Peter",
+    "email":"Pparker4@spider.com",
+    "telefone":[
+        "951389452",
+        "985213647"
+    ],
+    "endereco":{
+        "logradouro":"Queens Alter Ego",
+        "numero":"5",
+        "cep":"98746",
+        "apartamento": "false",
+        "complemento":"Venda da tia May"
+    }
+}]
