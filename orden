@@ -1,0 +1,18 @@
+const usuarios = [
+    {nome: "Coronado", idade: 32},
+    {nome: "Rodrigo", idade: 26},
+    {nome: "Angel", idade: 32}
+];
+
+//Encontrando um objeto
+const rod = usuarios.find(usuario => usuario.nome === "Rodrigo");
+
+console.log(rod);
+
+//Filtrando objetos
+const usuariosAcimaDe30 = usuarios.filter(usuario => usuario.idade > 30);
+console.log(usuariosAcimaDe30);
+
+//Ordenando objetos por idade
+const usuariosOrdenadosPorIdade = usuarios.sort((a,b) => a.idade - b.idade);
+console.log(usuariosOrdenadosPorIdade);
